@@ -1,0 +1,32 @@
+[
+  {
+    "id": "G.T.I.",
+    "name": "G.T.I.",
+    "display_name": "全球科技与和平行动组 (G.T.I.)",
+    "summary": "纪律严明，技术领先，拥有顶尖的战术干员。",
+    "tone_tags": ["正规", "高效", "协作"],
+    "style_tags": ["高科技", "战术"],
+    "role_in_world": "核心执法力量",
+    "common_player_impression": "干员很强，配合起来很无敌。"
+  },
+  {
+    "id": "Asara",
+    "name": "Asara",
+    "display_name": "阿萨拉卫队",
+    "summary": "地方守卫力量，骁勇善战，极具领土意识。",
+    "tone_tags": ["硬核", "本土", "坚韧"],
+    "style_tags": ["草根", "重火力"],
+    "role_in_world": "地方守卫者",
+    "common_player_impression": "台词很逗，人很硬。"
+  },
+  {
+    "id": "Haverk",
+    "name": "Haverk",
+    "display_name": "哈夫克安保公司 (Haverk)",
+    "summary": "以利益为导向的精英私人准军事组织，效率至上。",
+    "tone_tags": ["专业", "冷峻", "实用"],
+    "style_tags": ["黑色战术", "暗影", "高端"],
+    "role_in_world": "私人军事承包商",
+    "common_player_impression": "高逼格，但也很有压迫感。"
+  }
+]

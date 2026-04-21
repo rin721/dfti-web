@@ -1,0 +1,9 @@
+{
+  "project_name": "DFTI (Delta Force Type Indicator)",
+  "subtitle": "《三角洲行动》角色人格测试站",
+  "quiz_count": 12,
+  "default_theme": "tactical-dark",
+  "show_meme_confidence": true,
+  "disclaimer": "本产品仅供同人娱乐使用，结果不构成专业人格建议，部分内容源于社区二创。",
+  "version": "1.0.0-alpha"
+}

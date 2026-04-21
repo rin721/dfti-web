@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tactical-lead",
+    "name": "战术控制型",
+    "description": "总是能冷静思考，在混乱中建立秩序。你是小队的大脑，擅长布防与资源分配。",
+    "mbti_core": ["INTJ", "ENTJ"],
+    "key_traits": ["冷静", "筹谋", "高压秩序"]
+  },
+  {
+    "id": "aggressive-attacker",
+    "name": "嘴硬猛攻型",
+    "description": "信奉攻击是最好的防守。即使子弹擦过脸颊，你也会回敬一句“就这？”。",
+    "mbti_core": ["ESTP", "ESFP"],
+    "key_traits": ["勇猛", "直觉", "不服就干"]
+  },
+  {
+    "id": "abstract-clown",
+    "name": "抽象整活型",
+    "description": "战场是你的舞台，除了杀敌，你更关心如何帅气地、搞笑地、出人意料地取得胜利。",
+    "mbti_core": ["ENTP", "ENFP"],
+    "key_traits": ["多变", "幽默", "非对称思维"]
+  }
+]

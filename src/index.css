@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --bg-tactical: #09090b; /* zin-950 */
+    --card-tactical: rgba(255, 255, 255, 0.05); /* Frosted white */
+    --accent-tactical: #f97316; /* Orange-500 */
+    --border-tactical: rgba(255, 255, 255, 0.1);
+    --text-primary: #f4f4f5;
+    --text-muted: #71717a;
+    --selection-tactical: rgba(249, 115, 22, 0.2);
+  }
+
+  body {
+    background-color: var(--bg-tactical);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Mesh Gradients from design */
+  body::after {
+    content: "";
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 50%;
+    height: 50%;
+    background: rgba(124, 45, 18, 0.2); /* orange-900/20 */
+    border-radius: 9999px;
+    filter: blur(120px);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    bottom: -10%;
+    right: -10%;
+    width: 50%;
+    height: 50%;
+    background: rgba(6, 78, 59, 0.1); /* emerald-900/10 */
+    border-radius: 9999px;
+    filter: blur(120px);
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+@layer components {
+  .tactical-border {
+    border: 1px solid var(--border-tactical);
+    position: relative;
+  }
+
+  .tactical-border::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid var(--accent-tactical);
+    border-left: 2px solid var(--accent-tactical);
+  }
+
+  .tactical-border::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid var(--accent-tactical);
+    border-right: 2px solid var(--accent-tactical);
+  }
+
+  .mono-label {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.65rem;
+  }
+}
+

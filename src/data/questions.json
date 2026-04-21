@@ -1,0 +1,545 @@
+[
+  {
+    "id": "q1",
+    "order": 1,
+    "title": "战前整备",
+    "scenario": "直升机即将滑降至长弓溪谷，小队频道里一片嘈杂。",
+    "question": "这时你通常会扮演什么样的角色？",
+    "options": [
+      {
+        "id": "q1-a",
+        "text": "大声开麦：“兄弟们，这把跟我冲，直接拿捏！”",
+        "mbti_effects": { "E": 2, "S": 1, "P": 1 },
+        "personality_tag_effects": ["果断", "热情"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["全场最速"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q1-b",
+        "text": "沉默不语，但在脑中反复确认三座观测塔的战术方位。",
+        "mbti_effects": { "I": 2, "N": 1, "J": 2 },
+        "personality_tag_effects": ["冷静", "谨慎"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q1-c",
+        "text": "悠闲地检查消音头，偶尔发个“收到”的快捷语音。",
+        "mbti_effects": { "I": 1, "S": 1, "P": 2 },
+        "personality_tag_effects": ["沉稳", "专业"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q1-d",
+        "text": "整活开嗓：“来，咱俩练练！有没有兄弟去航天中心拼刀？”",
+        "mbti_effects": { "E": 2, "N": 1, "P": 2 },
+        "personality_tag_effects": ["搞怪", "勇悍"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["来咱俩练练"],
+        "score_weight": 1.1
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "order": 2,
+    "title": "遭遇突袭",
+    "scenario": "在哈夫克核心区搜索资源时，突遭敌方精锐埋伏，坦克炮火已覆盖掩体。",
+    "question": "你的第一反应是什么？",
+    "options": [
+      {
+        "id": "q2-a",
+        "text": "烟雾弹起，封死视野，指挥队友交替掩护向斜后方切入。",
+        "mbti_effects": { "T": 2, "J": 2 },
+        "personality_tag_effects": ["控制欲", "大局观"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["秩序核心"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q2-b",
+        "text": "“干就完了！”滑铲出击，寻找对方坦克的后甲视盲区。",
+        "mbti_effects": { "S": 2, "P": 2 },
+        "personality_tag_effects": ["勇猛", "冒险"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["硬汉"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q2-c",
+        "text": "寻找高点，架好狙击点位，压制对方探头的突击手。",
+        "mbti_effects": { "I": 2, "T": 1, "J": 1 },
+        "personality_tag_effects": ["精准", "冷酷"],
+        "faction_affinity_effects": { "Haverk": 1 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q2-d",
+        "text": "开麦安抚队友：没事，我命硬，先把包舔了再撤！",
+        "mbti_effects": { "F": 1, "P": 2 },
+        "personality_tag_effects": ["乐观", "抽象"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["嘴硬战神"],
+        "score_weight": 1.1
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "order": 3,
+    "title": "物资分配",
+    "scenario": "好不容易摸到一个红色信标，里面躺着这把唯一的“曼德拉草”高阶防弹衣。",
+    "question": "你会如何处理它？",
+    "options": [
+      {
+        "id": "q3-a",
+        "text": "二话不说，直接拍在抗伤害最猛的突击手队友身上。",
+        "mbti_effects": { "F": 2, "J": 1 },
+        "personality_tag_effects": ["无私", "大局观"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["金牌奶爸"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q3-b",
+        "text": "光速穿上，并表示：“我穿是为整个团队的容错率护航。”",
+        "mbti_effects": { "T": 1, "E": 1, "J": 1 },
+        "personality_tag_effects": ["理智", "领导力"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["极致嘴稳"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q3-c",
+        "text": "假装没看见，等队友走远了再回来偷偷换上。",
+        "mbti_effects": { "I": 2, "P": 2 },
+        "personality_tag_effects": ["低调", "利己"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["仓鼠玩家"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q3-d",
+        "text": "在公屏喊话嘲讽对手：身上这件红色就是你们这把的墓碑。",
+        "mbti_effects": { "E": 2, "T": 1, "P": 1 },
+        "personality_tag_effects": ["狂傲", "具攻击性"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["嘲讽拉满"],
+        "score_weight": 1.3
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "order": 4,
+    "title": "遭遇战败",
+    "scenario": "全队满载而归，却在撤离点前 20 米被一个“老六”蹲坑团灭，全家桶掉个精光。",
+    "question": "这时候你脑子里想的是？",
+    "options": [
+      {
+        "id": "q4-a",
+        "text": "总结失误：“下次撤离前必须无死角拉烟，这是战术漏洞。”",
+        "mbti_effects": { "T": 2, "J": 2 },
+        "personality_tag_effects": ["严谨", "复盘"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["由于过于严谨"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q4-b",
+        "text": "安慰队友：“游戏嘛，再打一把的事，这波这老六挺有耐心的。”",
+        "mbti_effects": { "F": 2, "P": 1 },
+        "personality_tag_effects": ["宽容", "乐观"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["队伍降压阀"],
+        "score_weight": 0.9
+      },
+      {
+        "id": "q4-c",
+        "text": "退出游戏，并在官方群/论坛激情敲击键盘讨论撤离点平衡性。",
+        "mbti_effects": { "E": 1, "T": 2, "P": 2 },
+        "personality_tag_effects": ["冲动", "较真"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["强度党"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q4-d",
+        "text": "直接笑出声：“太抽象了，这也是战场的一部分，奖励自己一把拼刀局。”",
+        "mbti_effects": { "N": 2, "P": 2 },
+        "personality_tag_effects": ["豁达", "享乐"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["这很三角洲"],
+        "score_weight": 1.2
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "order": 5,
+    "title": "任务选择",
+    "scenario": "指挥部发来两个可选任务分支。",
+    "question": "你会接哪一个？",
+    "options": [
+      {
+        "id": "q5-a",
+        "text": "高风险潜入：单枪匹马渗透敌方营地获取绝密档案。",
+        "mbti_effects": { "I": 2, "S": 1, "P": 2 },
+        "personality_tag_effects": ["独立", "孤狼"],
+        "faction_affinity_effects": { "Haverk": 2 },
+        "meme_affinity_effects": ["独行侠"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q5-b",
+        "text": "大规模攻坚：率领战友进行阵地突破，压制敌机截击。",
+        "mbti_effects": { "E": 2, "S": 2, "J": 1 },
+        "personality_tag_effects": ["组织性", "英勇"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["正面硬刚"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q5-c",
+        "text": "后勤保障：确保供应链畅通，为队友提供维修与弹药。",
+        "mbti_effects": { "S": 1, "F": 1, "J": 2 },
+        "personality_tag_effects": ["细致", "贡献"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["最佳拍档"],
+        "score_weight": 0.8
+      },
+      {
+        "id": "q5-d",
+        "text": "情报欺诈：在暗处制造混乱，利用假情报引导对方内讧。",
+        "mbti_effects": { "N": 2, "T": 2, "P": 1 },
+        "personality_tag_effects": ["狡黠", "多智"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["计谋大师"],
+        "score_weight": 1.1
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "order": 6,
+    "title": "社区二创",
+    "scenario": "你在短视频平台上刷到了关于你的战场切片，评论区正在吵架。",
+    "question": "你的反应是？",
+    "options": [
+      {
+        "id": "q6-a",
+        "text": "耐心回复：“这波操作其实是为了...",
+        "mbti_effects": { "F": 1, "J": 1 },
+        "personality_tag_effects": ["温和", "严谨"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["好脾气队长"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q6-b",
+        "text": "不屑一顾：强者不需要向弱者解释每一颗子弹的轨迹。",
+        "mbti_effects": { "I": 1, "T": 2, "J": 1 },
+        "personality_tag_effects": ["傲慢", "专注"],
+        "faction_affinity_effects": { "Haverk": 1 },
+        "meme_affinity_effects": ["高冷值拉满"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q6-c",
+        "text": "亲自下场加入抽象派，把自己做成鬼畜表情包。",
+        "mbti_effects": { "E": 2, "P": 2 },
+        "personality_tag_effects": ["幽默", "合群"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["抽象大户"],
+        "score_weight": 1.3
+      },
+      {
+        "id": "q6-d",
+        "text": "联系官方，要求删除那些包含“嘴硬”标签的视频。",
+        "mbti_effects": { "J": 2, "S": 1 },
+        "personality_tag_effects": ["正经", "强硬"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["拒绝玩梗"],
+        "score_weight": 1.1
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "order": 7,
+    "title": "困局突围",
+    "scenario": "小队被围困在零号大坝的泵房，弹药见底，外围全是脚步声。",
+    "question": "你会提议哪种方案？",
+    "options": [
+      {
+        "id": "q7-a",
+        "text": "“拼了！”所有人上刺刀，听我口令，往人声最响的地方冲。",
+        "mbti_effects": { "S": 2, "P": 2 },
+        "personality_tag_effects": ["拼命三郎"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["热血笨蛋"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q7-b",
+        "text": "利用泄洪道噪音掩护，逐个静步摸出，这叫战术转移。",
+        "mbti_effects": { "I": 1, "T": 1, "J": 2 },
+        "personality_tag_effects": ["谨慎", "专业"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["战术大师"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q7-c",
+        "text": "我留下断后拉响手雷，你们带着档案走，记得帮我修包。",
+        "mbti_effects": { "F": 2, "J": 1 },
+        "personality_tag_effects": ["牺牲精神"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["铁血英雄"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q7-d",
+        "text": "开公屏麦：“外面的兄弟听着，我这有红色信标，换我们走！”",
+        "mbti_effects": { "E": 2, "T": 1, "P": 2 },
+        "personality_tag_effects": ["圆滑", "投机"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["战场外交家"],
+        "score_weight": 1.3
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "order": 8,
+    "title": "休整时刻",
+    "scenario": "终于回到安全区的暂住舱，面前是难得的宁静。",
+    "question": "你会如何度过这几小时？",
+    "options": [
+      {
+        "id": "q8-a",
+        "text": "独自保养武器，把每一颗子弹都擦拭得反光。",
+        "mbti_effects": { "I": 2, "S": 2 },
+        "personality_tag_effects": ["完美主义", "专注"],
+        "faction_affinity_effects": { "Haverk": 1 },
+        "meme_affinity_effects": ["装备质检员"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q8-b",
+        "text": "召集队友复盘刚才的录像，指出大家在站位上的 15 处错误。",
+        "mbti_effects": { "E": 1, "T": 2, "J": 2 },
+        "personality_tag_effects": ["教练风范", "严厉"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["由于过于严谨"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q8-c",
+        "text": "拿出私藏的口粮和大家分享，吹嘘自己当年的“辉煌战绩”。",
+        "mbti_effects": { "E": 2, "F": 1, "P": 1 },
+        "personality_tag_effects": ["热力四射", "吹牛王"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["老兵不死"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q8-d",
+        "text": "直接躺平睡大觉：天塌下来有指挥顶着，我只管明天开枪。",
+        "mbti_effects": { "I": 1, "P": 2 },
+        "personality_tag_effects": ["随性", "心大"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["战场打工人"],
+        "score_weight": 0.9
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "order": 9,
+    "title": "遭遇战友被围",
+    "scenario": "你正在撤离途中，看到不远处的野排队友被四个哈夫克步兵围攻，几乎必死。",
+    "question": "你的选择是？",
+    "options": [
+      {
+        "id": "q9-a",
+        "text": "对不起兄弟，死道友不死贫道，我那一包金必须带出去。",
+        "mbti_effects": { "T": 1, "J": 1 },
+        "personality_tag_effects": ["务实", "冷利"],
+        "faction_affinity_effects": { "Haverk": 1 },
+        "meme_affinity_effects": ["稳健型选手"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q9-b",
+        "text": "直接掉头杀回去，虽然我的甲也碎了，但义气不能碎。",
+        "mbti_effects": { "F": 2, "P": 2 },
+        "personality_tag_effects": ["重情义", "冲动"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["纯情突击手"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q9-c",
+        "text": "远程开火骚扰，吸引一部分火力分担压力，看他能不能自救。",
+        "mbti_effects": { "S": 1, "T": 1, "P": 1 },
+        "personality_tag_effects": ["理智", "支援"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["边缘OB大师"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q9-d",
+        "text": "等他被打死后，悄悄摸过去，把他的档案和装备捡走（美其名曰回收）。",
+        "mbti_effects": { "I": 2, "T": 2, "P": 2 },
+        "personality_tag_effects": ["阴险", "贪婪"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["舔包怪"],
+        "score_weight": 1.4
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "order": 10,
+    "title": "终极信仰",
+    "scenario": "如果让你为这次行动写一句墓志铭。",
+    "question": "你会写什么？",
+    "options": [
+      {
+        "id": "q10-a",
+        "text": "“秩序重于一切。”",
+        "mbti_effects": { "J": 2, "T": 1 },
+        "personality_tag_effects": ["严肃", "秩序"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q10-b",
+        "text": "“哪怕是废墟，也是我守护的家园。”",
+        "mbti_effects": { "F": 2, "S": 1 },
+        "personality_tag_effects": ["忠诚", "热血"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q10-c",
+        "text": "“在暗影中观察，在精准中终结。”",
+        "mbti_effects": { "I": 2, "T": 2 },
+        "personality_tag_effects": ["专业", "孤独"],
+        "faction_affinity_effects": { "Haverk": 2 },
+        "meme_affinity_effects": [],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q10-d",
+        "text": "“至少这把玩得挺抽象。”",
+        "mbti_effects": { "E": 1, "P": 2, "N": 1 },
+        "personality_tag_effects": ["戏谑", "洒脱"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["乐子人"],
+        "score_weight": 1.2
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "order": 11,
+    "title": "空投争夺",
+    "scenario": "天边划过一道红光，超级空投砸在了长弓溪谷的正中央。",
+    "question": "全战场都在看，你会怎么做？",
+    "options": [
+      {
+        "id": "q11-a",
+        "text": "在高地架枪，不舔包，只射杀每一个敢靠近箱子的人。",
+        "mbti_effects": { "I": 2, "T": 1, "J": 2 },
+        "personality_tag_effects": ["冷酷", "掌控"],
+        "faction_affinity_effects": { "Haverk": 1 },
+        "meme_affinity_effects": ["死神降临"],
+        "score_weight": 1.1
+      },
+      {
+        "id": "q11-b",
+        "text": "“全速前进！”油门踩到底，利用速度在大部队赶到前卷走核心。",
+        "mbti_effects": { "E": 2, "S": 2, "P": 2 },
+        "personality_tag_effects": ["狂热", "迅捷"],
+        "faction_affinity_effects": { "G.T.I.": 1 },
+        "meme_affinity_effects": ["全场最速"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q11-c",
+        "text": "理智分析：风险收益比太低，我们去舔外围被杀剩下的包。",
+        "mbti_effects": { "T": 2, "S": 1, "J": 1 },
+        "personality_tag_effects": ["稳健", "务实"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["垃圾王"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q11-d",
+        "text": "把车炸了横在路口制造大堵车，然后看里面的人乱成一团。",
+        "mbti_effects": { "E": 1, "N": 2, "P": 2 },
+        "personality_tag_effects": ["混乱", "顽劣"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["战场搅屎棍"],
+        "score_weight": 1.3
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "order": 12,
+    "title": "终极抉择",
+    "scenario": "如果你发现指挥部的绝密计划中包含牺牲平民的条款。",
+    "question": "作为前线干员，你的态度是？",
+    "options": [
+      {
+        "id": "q12-a",
+        "text": "服从是军人的天职，必须以大局为重。",
+        "mbti_effects": { "J": 2, "S": 2 },
+        "personality_tag_effects": ["忠诚", "铁血"],
+        "faction_affinity_effects": { "G.T.I.": 2 },
+        "meme_affinity_effects": ["秩序机器"],
+        "score_weight": 1.0
+      },
+      {
+        "id": "q12-b",
+        "text": "良知重于命令，我会秘密引导平民撤离并销毁证据。",
+        "mbti_effects": { "F": 2, "N": 1, "P": 2 },
+        "personality_tag_effects": ["善良", "叛逆"],
+        "faction_affinity_effects": { "Asara": 2 },
+        "meme_affinity_effects": ["反骨战士"],
+        "score_weight": 1.2
+      },
+      {
+        "id": "q12-c",
+        "text": "将这份情报打包卖给哈夫克，寻找最有利的撤退方案。",
+        "mbti_effects": { "T": 2, "I": 2, "P": 1 },
+        "personality_tag_effects": ["逐利", "理智"],
+        "faction_affinity_effects": { "Haverk": 2 },
+        "meme_affinity_effects": ["双面间谍"],
+        "score_weight": 1.3
+      },
+      {
+        "id": "q12-d",
+        "text": "假装没看到，只要不影响我的战绩排名，谁死都一样。",
+        "mbti_effects": { "I": 1, "S": 2, "T": 1, "P": 2 },
+        "personality_tag_effects": ["漠然", "实用"],
+        "faction_affinity_effects": { "Asara": 1 },
+        "meme_affinity_effects": ["独善其身"],
+        "score_weight": 1.1
+      }
+    ]
+  }
+
+
+
+]

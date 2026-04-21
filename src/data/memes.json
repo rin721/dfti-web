@@ -1,0 +1,40 @@
+[
+  {
+    "id": "meme-练练",
+    "title": "来，咱俩练练",
+    "raw_phrase": "来，咱俩练练",
+    "normalized_phrase": "来，咱俩练练",
+    "meme_type": "敌兵台词梗",
+    "related_characters": ["asara-guard-archetype"],
+    "related_factions": ["Asara"],
+    "related_scene": "单人战役/撤离模式接敌",
+    "tone_tags": ["嘴硬", "自信", "喜感"],
+    "explanation": "原为阿萨拉卫队士兵的接敌台词，因其中气十足且带有莫名的自信，被玩家广泛二创。常出现在玩家被AI反杀后的自我解嘲中。",
+    "usage_context": "用于形容那种虽然处于劣势但气势绝不认输的玩家。",
+    "suitability": ["题目", "结果页", "图鉴注释"],
+    "risk_note": "纯娱乐梗，无敏感信息。",
+    "source_type": "community",
+    "canon_level": "fanon",
+    "confidence": "high",
+    "source_note": "社交媒体及玩家群聊高频使用。"
+  },
+  {
+    "id": "meme-威龙认祖",
+    "title": "收手吧威龙 / 认祖归洲",
+    "raw_phrase": "收手吧大圣，外面全是彦祖",
+    "normalized_phrase": "认祖归洲",
+    "meme_type": "社区称呼梗",
+    "related_characters": ["gti-vyron"],
+    "related_factions": ["G.T.I."],
+    "related_scene": "社区讨论/官网立绘评论区",
+    "tone_tags": ["帅气", "谐音", "致敬"],
+    "explanation": "将干员“威龙”与香港电影经典形象及演员吴彦祖关联，形成了独特的社区偶像化崇拜。",
+    "usage_context": "形容那些在战场上操作华丽、身法飘逸、颜值在线的玩家。",
+    "suitability": ["结果页", "图鉴注释"],
+    "risk_note": "涉及第三方明星姓名，建议仅作为梗符号使用。",
+    "source_type": "community",
+    "canon_level": "ambiguous",
+    "confidence": "high",
+    "source_note": "B站/贴吧广泛流传。"
+  }
+]
